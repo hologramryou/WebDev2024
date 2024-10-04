@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: Nguyễn Trường Sơn
+* ID: BI12-388
+* Group ID: 13
+* Project Name: Multi-Page Business Website
