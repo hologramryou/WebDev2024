@@ -3,15 +3,18 @@ import React from "react"
 import Header from "./header/Header"
 import Home from "./pages/Home"
 import About from "./pages/About"
+import Services from "./pages/Services"
+import Contact from "./pages/Contact"
 
 function App() {
   return(
     <Router>
       <Header />
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );

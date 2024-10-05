@@ -1,5 +1,5 @@
-import "./Header.module.css"
-import { Link } from "react-router-dom"
+import styles from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 
 function Header() {
     return(
@@ -8,14 +8,25 @@ function Header() {
 
             <nav>
                 <ul>
-                    <li><Link to="/Home">Home</Link></li>
-                    <li><Link to="/About">About</Link></li>
-                    <li><Link to="/Services">Services</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
+                    <li><NavLink to="/" className={({ isActive }) => isActive ? styles.active : ''}>
+                    Home
+                    </NavLink></li>
+                    
+                    <li><NavLink to="/About" className={({ isActive }) => isActive ? styles.active : ''}>
+                    About
+                    </NavLink></li>
+                    
+                    <li><NavLink to="/Services" className={({ isActive }) => isActive ? styles.active : ''}>
+                    Services
+                    </NavLink></li>
+                    
+                    <li><NavLink to="/Contact" className={({ isActive }) => isActive ? styles.active : ''}>
+                    Contact
+                    </NavLink></li>
                 </ul>
             </nav>
         </header>
     );
 }
 
-export default Header
+export default Header;

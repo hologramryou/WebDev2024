@@ -1,11 +1,21 @@
 import img from "../assets/home_img.jpg"
+import styles from "./home.module.css"
 
 function Home() {
     return(
         <>
-    
-            <img src={img} alt="img" />
-            <h1>Homepage</h1>
+            <div className={styles.container}>
+                <img className={styles.big_img} src={img} alt="img" />
+                <div className={styles.glass}>
+                    <div className={styles.intro}>
+                        Welcome to Karpentry
+                        <div className={styles.below}>
+                            Where Your Dreams Are Built
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
       );
 }
