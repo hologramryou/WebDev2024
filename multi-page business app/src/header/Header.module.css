@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+
+* {
+    font-family: Overpass;
+}
+
+h1 {
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 500px;
+}
+
+header nav ul li {
+    height: 100px;
+}
+header nav ul li a:hover {
+    color: lightcoral;
+    background: darkred;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.4s ease;
+    color: darkred;
+}
