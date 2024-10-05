@@ -1,0 +1,28 @@
+h1 {
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: lightcoral;
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+header nav ul li a {
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 17px;
+}
