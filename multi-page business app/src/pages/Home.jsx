@@ -10,7 +10,7 @@ function Home() {
                     <div className={styles.intro}>
                         Welcome to Karpentry
                         <div className={styles.below}>
-                            Where Your Dreams Are Built
+                           We Build Your Needs
                         </div>
                     </div>
                 </div>

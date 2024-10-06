@@ -18,6 +18,7 @@ header {
     height: 100px;
     background-color: lightcoral;
     display: flex;
+    z-index: 1;
 }
 
 header nav ul {
