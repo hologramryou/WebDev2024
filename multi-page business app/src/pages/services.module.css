@@ -47,9 +47,11 @@
     font-size: 20px;
     line-height: 33px;
     color: rgb(203, 119, 67);
+    font-family: Overpass;
 }
 
 .item {
     margin: 30px 20px;
-    font-family: "Syncopate", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }

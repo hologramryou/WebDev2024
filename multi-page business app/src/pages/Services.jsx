@@ -1,7 +1,7 @@
 import styles from "./services.module.css"
 import img from "../assets/wood_pieces.jpg"
 
-function About() {
+function Services() {
     return(
         <>
             <div className={styles.container}>
@@ -84,4 +84,4 @@ function About() {
       );
 }
 
-export default About
+export default Services

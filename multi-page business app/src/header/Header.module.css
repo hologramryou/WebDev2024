@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
 
 * {
-    font-family: Overpass;
     margin: 0;
 }
 
@@ -12,6 +11,7 @@ h1 {
 }
 
 header {
+    font-family: Overpass;
     top: 0;
     position: sticky;
     width: 100vw;
