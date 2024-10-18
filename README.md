@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: Nguyễn Trường Sơn
-* ID: BI12-388
+* Name: Lưu Bá Anh
+* ID: BI12-028
 * Group ID: 13
 * Project Name: Multi-Page Business Website
