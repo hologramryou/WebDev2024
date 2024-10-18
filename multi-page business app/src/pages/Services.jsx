@@ -20,7 +20,7 @@ function Services() {
                         <div className={styles.description}>
                             We specialized in creating handcrafted furniture tailored to your style and needs
                             . Whether you're looking for an unique dining table, custom shelving, or a piece 
-                            in your living room, our experts carpenters will work closely with you to design
+                            in your living room, our expert carpenters will work closely with you to design
                             and build furniture that bring forth your visions to reality.
                         </div>
                     </div>
@@ -28,7 +28,7 @@ function Services() {
                     <div className={styles.item}>
                         Cabinetry
                         <div className={styles.description}>
-                            Upgrade your kitchen, bathroom, or office with our expertly crafted cabinetry.
+                            Upgrade your kitchen, bathroom, or office with our professionally crafted cabinetry.
                             At Karpentry, we offer custom carpentry solutions designed to fit your space 
                             and storage needs. You can be assured that all of our products are made with 
                             high-quality materials and finishes so that they are durable and stylish.
@@ -52,7 +52,7 @@ function Services() {
                         <div className={styles.description}>
                             Choosing the right flooring for your home can be an difficult and overwhelming
                             task. Luckily for you, we have professionals that will offer you your fitting services
-                            for all type of wooden flooring. We are delighted to take the the pressure off by doing
+                            for all type of wooden flooring. We are delighted to take the pressure off by doing
                             the hard work for you, we can even supply the flooring of your choice to you. We will
                             give you the best advice from specialist on all aspects of wood flooring so you can make
                             the best choice for your house.
@@ -63,7 +63,7 @@ function Services() {
                         Maintenance & Repairs
                         <div className={styles.description}>
                             If you have carpentry related jobs that need fixing or maintaning in your home,
-                            ranging from stair, doors, shelves, furniture to other practical tasks then don't
+                            ranging from stairs, doors, shelves, furniture to other practical tasks then don't
                             hesitate to contact us. To us, no job is too small and we are happy to provide a 
                             service for you that suit your needs and budget.
                         </div>

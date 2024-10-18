@@ -24,7 +24,6 @@
     background: linear-gradient(135deg, rgba(196, 123, 59, 0.105), rgba(173, 71, 40, 0.173));
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    border: 1px ;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
 }
 
